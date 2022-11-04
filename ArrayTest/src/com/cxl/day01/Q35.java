@@ -5,6 +5,7 @@ public class Q35 {
         int [] nums = new int []{1,3,5,6};
         int target = 7;
         System.out.println(searchInsert(nums,target));
+        System.out.println("test git");
 
 
     }
