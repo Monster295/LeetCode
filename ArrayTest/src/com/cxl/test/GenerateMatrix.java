@@ -1,5 +1,8 @@
 package com.cxl.test;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class GenerateMatrix {
     public static void main(String[] args) {
         int[][] result= generateMatrix(5);
@@ -10,6 +13,7 @@ public class GenerateMatrix {
             System.out.println();
         }
     }
+    Queue queue = new ArrayDeque();
     public static int[][] generateMatrix(int n) {
         int[][] result = new int[n][n];
         int loop=0;
